@@ -29,7 +29,7 @@ within the context of the entire set.
 ## Usage
 
 ```bash
-$ python run_semantic_pca.py
+$ python run_textual_pca.py
 --number_principal_phrases 7
 --variance_coeff 10.0
 --logit_coeff 8.0
