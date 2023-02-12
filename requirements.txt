@@ -1,0 +1,10 @@
+fairscale==0.4.13
+lmdb==1.4.0
+matplotlib==3.6.3
+nltk==3.8.1
+opencv-python==4.7.0.68
+plotly==5.13.0
+timm==0.6.12
+torch==1.13.1
+torchvision==0.14.1
+transformers==4.26.1
