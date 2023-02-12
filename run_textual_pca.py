@@ -105,10 +105,10 @@ if __name__ == "__main__":
 
     # Load many types of datasets or create your own using local_datasets
     # LSUN example
-    dataset = ImagesOnlyLSUN(root='../data/lsun', classes=['church_outdoor_train'], transform=transform)
+    # dataset = ImagesOnlyLSUN(root='../data/lsun', classes=['church_outdoor_train'], transform=transform)
 
     # To use a custom dataset:
-    # dataset = DatasetFromPath(root=args.dataset_path, transform=transform)
+    dataset = DatasetFromPath(root=args.dataset_path, transform=transform)
 
     mean_phrase, principal_phrases = run(dataset, device)
     print(f"avg phrase: {mean_phrase}")
