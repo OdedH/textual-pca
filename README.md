@@ -26,6 +26,9 @@ within the context of the entire set.
 
 <img src="docs/radar.png" alt="Radar" width="600">
 
+Sample radar plots, in which the value of the projection to the principle phrases are depicted. In blue we
+show positive correlation and in red negative correlation.
+
 ## Usage
 
 ```bash
